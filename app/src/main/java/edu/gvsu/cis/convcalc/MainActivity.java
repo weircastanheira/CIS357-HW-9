@@ -133,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
                     dest.setText(Double.toString(cVal));
 
                     // MARK: Part 1 Step 21
-                    HistoryContent.HistoryItem item = new HistoryContent.HistoryItem(fromVal, toVal, mode.toString(),
+                    HistoryContent.HistoryItem item = new HistoryContent.HistoryItem(dVal, cVal, mode.toString(),
                             toUnits.toString(), fromUnits.toString(), DateTime.now());
                     HistoryContent.addItem(item);
 
@@ -152,9 +152,9 @@ public class MainActivity extends AppCompatActivity {
                     dest.setText(Double.toString(vcVal));
 
                     // MARK: Part 1 Step 21
-                    HistoryContent.HistoryItem item = new HistoryContent.HistoryItem(fromVal, toVal, mode.toString(),
+                    HistoryContent.HistoryItem item2 = new HistoryContent.HistoryItem(vdVal, vcVal, mode.toString(),
                             toUnits.toString(), fromUnits.toString(), DateTime.now());
-                    HistoryContent.addItem(item);
+                    HistoryContent.addItem(item2);
 
                     break;
             }

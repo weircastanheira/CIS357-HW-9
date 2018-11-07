@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Filipe\\Desktop\\GVSU Classes\\Senior Year\\Fall 2018\\CIS 357 - Mobile Application Dev\\HW7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rIE\\values-en-rIE.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Filipe\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.5.aar\\d359437436d60b9bca4489a412dac214\\res\\values-en-rIE\\values-en-rIE.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

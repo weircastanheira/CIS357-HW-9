@@ -1,0 +1,4 @@
+#Mon Nov 05 18:49:12 EST 2018
+base.0=C\:\\Users\\Filipe\\Desktop\\GVSU Classes\\Senior Year\\Fall 2018\\CIS 357 - Mobile Application Dev\\HW7\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
