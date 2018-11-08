@@ -9,6 +9,7 @@
         android:targetSdkVersion="27" />
 
     <application
+        android:name="edu.gvsu.cis.convcalc.ConversionApp"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
