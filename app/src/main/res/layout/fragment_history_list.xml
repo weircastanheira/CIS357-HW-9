@@ -6,6 +6,6 @@
     android:name="edu.gvsu.cis.convcalc.HistoryFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layoutManager="LinearLayoutManager"
+    app:layoutManager="android.support.v7.widget.LinearLayoutManager"
     tools:context=".HistoryFragment"
     tools:listitem="@layout/fragment_history" />

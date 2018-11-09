@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
 
                     // MARK: Part 1 Step 21
                     HistoryContent.HistoryItem item = new HistoryContent.HistoryItem(dVal, cVal, mode.toString(),
-                            toUnits.toString(), fromUnits.toString(), DateTime.now());
+                            toUnits.getText().toString(), fromUnits.getText().toString(), DateTime.now());
                     HistoryContent.addItem(item);
 
                     break;
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
 
                     // MARK: Part 1 Step 21
                     HistoryContent.HistoryItem item2 = new HistoryContent.HistoryItem(vdVal, vcVal, mode.toString(),
-                            toUnits.toString(), fromUnits.toString(), DateTime.now());
+                            toUnits.getText().toString(), fromUnits.getText().toString(), DateTime.now());
                     HistoryContent.addItem(item2);
 
                     break;
@@ -221,12 +221,16 @@ public class MainActivity extends AppCompatActivity {
             //updateScreen();
         }else if (resultCode == HISTORY_RESULT) {
             String[] vals = data.getStringArrayExtra("item");
+            //double[] quant = data.getDoubleArrayExtra("quant");
+
             this.fromField.setText(vals[0]);
             this.toField.setText(vals[1]);
             this.mode = Mode.valueOf(vals[2]);
             this.fromUnits.setText(vals[3]);
             this.toUnits.setText(vals[4]);
             this.title.setText(mode.toString() + " Converter");
+
+
         }
 
     }

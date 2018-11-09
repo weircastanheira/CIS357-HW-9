@@ -33,7 +33,9 @@ public class HistoryActivity extends AppCompatActivity implements HistoryFragmen
         System.out.println("Interact!");
         Intent intent = new Intent();
         String[] vals = {item.fromVal.toString(), item.toVal.toString(), item.mode, item.fromUnits, item.toUnits};
+        //double[] quant = {item.fromVal, item.toVal};
         intent.putExtra("item", vals);
+        //intent.putExtra("itemDouble", quant);
         setResult(MainActivity.HISTORY_RESULT,intent);
         finish();
     }
