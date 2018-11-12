@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Filipe\\Desktop\\GVSU Classes\\Senior Year\\Fall 2018\\CIS 357 - Mobile Application Dev\\HW7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
+            "outputFile": "C:\\Users\\michael\\StudioProjects\\attempt35\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hy\\values-hy.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Filipe\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\be5891f7ce58204c460fcdff6623798b\\res\\values-hy\\values-hy.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "99",
-                        "startColumns": "4",
-                        "startOffsets": "7132",
-                        "endColumns": "100",
-                        "endOffsets": "7228"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Filipe\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.5.aar\\d359437436d60b9bca4489a412dac214\\res\\values-hy\\values-hy.xml",
+                    "source": "C:\\Users\\michael\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.5.aar\\fcce8224ea13ccc6c2bc75604b1f9bd9\\res\\values-hy\\values-hy.xml",
                     "from": {
                         "startLines": "2,6,10,14,18,22,26,30,34,38,42,46,50,54,58,62,66,70,74,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -40,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Filipe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f4a15cca344ce16b65140d7ad5d1cb15\\res\\values-hy\\values-hy.xml",
+                    "source": "C:\\Users\\michael\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\95c6d2416a506e9c850cb43c8b86c82b\\res\\values-hy\\values-hy.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -54,6 +37,23 @@
                         "startOffsets": "4880,4983,5084,5194,5283,5389,5504,5586,5667,5752,5859,5966,6065,6175,6282,6382,6539,7050",
                         "endColumns": "102,100,109,88,105,114,81,80,84,106,106,98,109,106,99,156,98,81",
                         "endOffsets": "4978,5079,5189,5278,5384,5499,5581,5662,5747,5854,5961,6060,6170,6277,6377,6534,6633,7127"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\michael\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5bfed3e0a0ad4f475a15449607cc21c7\\res\\values-hy\\values-hy.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "99",
+                        "startColumns": "4",
+                        "startOffsets": "7132",
+                        "endColumns": "100",
+                        "endOffsets": "7228"
                     }
                 }
             ]

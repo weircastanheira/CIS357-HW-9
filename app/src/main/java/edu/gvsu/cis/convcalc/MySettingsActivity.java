@@ -99,6 +99,7 @@ public class MySettingsActivity extends AppCompatActivity {
                 toSpinner.setSelection(i);
             }
         }
+
     }
 
 }

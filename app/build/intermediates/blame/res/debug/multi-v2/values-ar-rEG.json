@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Filipe\\Desktop\\GVSU Classes\\Senior Year\\Fall 2018\\CIS 357 - Mobile Application Dev\\HW7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar-rEG\\values-ar-rEG.xml",
+            "outputFile": "C:\\Users\\michael\\StudioProjects\\attempt35\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar-rEG\\values-ar-rEG.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Filipe\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.5.aar\\d359437436d60b9bca4489a412dac214\\res\\values-ar-rEG\\values-ar-rEG.xml",
+                    "source": "C:\\Users\\michael\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.5.aar\\fcce8224ea13ccc6c2bc75604b1f9bd9\\res\\values-ar-rEG\\values-ar-rEG.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

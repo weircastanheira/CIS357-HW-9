@@ -31,6 +31,8 @@ public class HistoryActivity extends AppCompatActivity implements HistoryFragmen
 
     public void onListFragmentInteraction(HistoryContent.HistoryItem item) {
         System.out.println("Interact!");
+        System.out.println(item.fromUnits + " " + item.toUnits);
+        System.out.println("Values: " + item.fromVal.toString() + " " + item.toVal.toString());
         Intent intent = new Intent();
         String[] vals = {item.fromVal.toString(), item.toVal.toString(), item.mode, item.fromUnits, item.toUnits};
         //double[] quant = {item.fromVal, item.toVal};

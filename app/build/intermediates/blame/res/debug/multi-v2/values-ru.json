@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Filipe\\Desktop\\GVSU Classes\\Senior Year\\Fall 2018\\CIS 357 - Mobile Application Dev\\HW7\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
+            "outputFile": "C:\\Users\\michael\\StudioProjects\\attempt35\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru\\values-ru.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Filipe\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f4a15cca344ce16b65140d7ad5d1cb15\\res\\values-ru\\values-ru.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,220,322,434,520,625,745,824,902,982,1088,1196,1294,1403,1509,1617,1792,1892",
-                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
-                        "endOffsets": "215,317,429,515,620,740,819,897,977,1083,1191,1289,1398,1504,1612,1787,1887,1968"
-                    },
-                    "to": {
-                        "startLines": "78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,99",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4933,5048,5150,5262,5348,5453,5573,5652,5730,5810,5916,6024,6122,6231,6337,6445,6620,7190",
-                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
-                        "endOffsets": "5043,5145,5257,5343,5448,5568,5647,5725,5805,5911,6019,6117,6226,6332,6440,6615,6715,7266"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Filipe\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\be5891f7ce58204c460fcdff6623798b\\res\\values-ru\\values-ru.xml",
+                    "source": "C:\\Users\\michael\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5bfed3e0a0ad4f475a15449607cc21c7\\res\\values-ru\\values-ru.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Filipe\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.5.aar\\d359437436d60b9bca4489a412dac214\\res\\values-ru\\values-ru.xml",
+                    "source": "C:\\Users\\michael\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\95c6d2416a506e9c850cb43c8b86c82b\\res\\values-ru\\values-ru.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,220,322,434,520,625,745,824,902,982,1088,1196,1294,1403,1509,1617,1792,1892",
+                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
+                        "endOffsets": "215,317,429,515,620,740,819,897,977,1083,1191,1289,1398,1504,1612,1787,1887,1968"
+                    },
+                    "to": {
+                        "startLines": "78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,99",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4933,5048,5150,5262,5348,5453,5573,5652,5730,5810,5916,6024,6122,6231,6337,6445,6620,7190",
+                        "endColumns": "114,101,111,85,104,119,78,77,79,105,107,97,108,105,107,174,99,80",
+                        "endOffsets": "5043,5145,5257,5343,5448,5568,5647,5725,5805,5911,6019,6117,6226,6332,6440,6615,6715,7266"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\michael\\.gradle\\caches\\transforms-1\\files-1.1\\android.joda-2.9.5.aar\\fcce8224ea13ccc6c2bc75604b1f9bd9\\res\\values-ru\\values-ru.xml",
                     "from": {
                         "startLines": "2,6,10,14,18,22,26,30,34,38,42,46,50,54,58,62,66,70,74,78,79,80,81",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

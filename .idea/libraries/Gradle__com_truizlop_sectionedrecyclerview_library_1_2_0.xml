@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.truizlop.sectionedrecyclerview:library-1.2.0">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/9a397e0278d68ccfc383424b63988dd8/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/1b6d589a8c124d7f659e8b8c5a68ba6a/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/9a397e0278d68ccfc383424b63988dd8/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/9a397e0278d68ccfc383424b63988dd8/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/1b6d589a8c124d7f659e8b8c5a68ba6a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/1b6d589a8c124d7f659e8b8c5a68ba6a/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

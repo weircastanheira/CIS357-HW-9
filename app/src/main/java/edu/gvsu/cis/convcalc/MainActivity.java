@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public static int SETTINGS_RESULT = 1;
     // Part 1 Step 8
-    public static int HISTORY_RESULT = 1;
+    public static int HISTORY_RESULT = 2;
 
     private enum Mode {Length, Volume}
 
@@ -215,14 +215,20 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        System.out.println("onActivityResult ~~~~~");
         if (resultCode == SETTINGS_RESULT) {
+            String[] vals = data.getStringArrayExtra("item");
+            System.out.println("To and from Units: " + vals[3] + " " + vals[4]);
+            System.out.println("to units and from units: " + data.getStringExtra("fromUnits") + data.getStringExtra("toUnits"));
             this.fromUnits.setText(data.getStringExtra("fromUnits"));
             this.toUnits.setText(data.getStringExtra("toUnits"));
+    //        this.fromUnits.setText(vals[3]);
+     //       this.toUnits.setText(vals[4]);
             //updateScreen();
         }else if (resultCode == HISTORY_RESULT) {
             String[] vals = data.getStringArrayExtra("item");
             //double[] quant = data.getDoubleArrayExtra("quant");
-
+            System.out.println("to and from field: " + vals[0] + vals [1]);
             this.fromField.setText(vals[0]);
             this.toField.setText(vals[1]);
             this.mode = Mode.valueOf(vals[2]);
