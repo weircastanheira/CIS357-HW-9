@@ -187,6 +187,9 @@ public class MainActivity extends AppCompatActivity {
         if(item.getItemId() == R.id.action_settings) {
             Intent intent = new Intent(MainActivity.this,
                     MySettingsActivity.class);
+            intent.putExtra("mode", mode.toString());
+            intent.putExtra("fromUnits",fromUnits.getText());
+            intent.putExtra("toUnits",toUnits.getText());
             startActivityForResult(intent, SETTINGS_RESULT );
             return true;
         } else if(item.getItemId() == R.id.action_history) {
@@ -215,20 +218,12 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        System.out.println("onActivityResult ~~~~~");
         if (resultCode == SETTINGS_RESULT) {
             String[] vals = data.getStringArrayExtra("item");
-            System.out.println("To and from Units: " + vals[3] + " " + vals[4]);
-            System.out.println("to units and from units: " + data.getStringExtra("fromUnits") + data.getStringExtra("toUnits"));
             this.fromUnits.setText(data.getStringExtra("fromUnits"));
             this.toUnits.setText(data.getStringExtra("toUnits"));
-    //        this.fromUnits.setText(vals[3]);
-     //       this.toUnits.setText(vals[4]);
-            //updateScreen();
         }else if (resultCode == HISTORY_RESULT) {
             String[] vals = data.getStringArrayExtra("item");
-            //double[] quant = data.getDoubleArrayExtra("quant");
-            System.out.println("to and from field: " + vals[0] + vals [1]);
             this.fromField.setText(vals[0]);
             this.toField.setText(vals[1]);
             this.mode = Mode.valueOf(vals[2]);
